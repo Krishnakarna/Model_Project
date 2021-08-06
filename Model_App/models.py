@@ -1,5 +1,7 @@
 from django.db import models
 
+#Model Code Cnvert To The Database Table 
+
 class EmployeeModel(models.Model):
     eno = models.IntegerField()
     ename = models.CharField(max_length=30)
